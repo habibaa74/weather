@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="images/icon-compass.png"
+      type="image/x-icon"
+    />
+    <title>Weather</title>
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- main style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-bs-spy="scroll" data-bs-target="#navId">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary p-5" id="navId">
+      <div class="container">
+        <div class="icon ms-5">
+          <img src="images/logo@2x.png" alt="logo" />
+          <a class="navbar-brand ms-2" href="index.html">Company Name</a>
+        </div>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Live cameras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Photos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <section class="py-4" id="contact">
+      <div class="container">
+        <div class="row">
+          <input
+            type="text"
+            class="form-control contact w-75 m-auto rounded-pill z-1"
+            placeholder="Home ->> contact"
+            disabled
+          />
+        </div>
+        <div class="row g-3">
+          <div class="col-md-6 p-3">
+            <div class="data w-75 m-auto my-5 position-relative">
+              <div class="info position-absolute">
+                <p class="d-block">
+                  <i class="fa-solid fa-location-dot me-2"></i
+                  ><span
+                    >Company Name INC.<br />
+                    2803 Avenue Street, Los Angeles</span
+                  >
+                </p>
+                <div
+                  class="info1 d-md-flex justify-content-around align-items-center"
+                >
+                  <p>
+                    <i class="fa-solid fa-phone me-2"></i
+                    ><span>+1 800 314 235</span>
+                  </p>
+                  <p class="ms-md-4">
+                    <i class="fa-solid fa-envelope me-2"></i
+                    ><span>contact@companyname.com</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="contact-us my-5">
+              <h2 class="text-white">Contact us</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Commodi consectetur inventore ducimus, facilis, numquam id
+                soluta omnis eius recusandae nesciunt vero repellat harum cum.
+                Nisi facilis odit hic, ipsum sed!
+              </p>
+              <form class="position-relative">
+                <div class="container">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <input
+                        type="text"
+                        placeholder="Your Name..."
+                        class="form-control bg-transparent rounded-pill"
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <input
+                        type="email"
+                        placeholder="Email Address..."
+                        class=" form-control bg-transparent rounded-pill"
+                      />
+                    </div>
+                  </div>
+                  <div class="row my-3">
+                    <div class="col-md-6">
+                      <input
+                        type="text"
+                        placeholder="Company Name..."
+                        class="form-control bg-transparent rounded-pill"
+                      />
+                    </div>
+                    <div class="col-md-6">
+                      <input
+                        type="text"
+                        placeholder="Website..."
+                        class=" form-control bg-transparent rounded-pill"
+                      />
+                    </div>
+                  </div>
+                <textarea class="form-control bg-transparent rounded-4" placeholder="message..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-info text-white rounded-pill my-3 py-2 px-4 position-absolute end-0">Submit</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="py-4">
+      <div class="container">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-md-8">
+            <div class="input-group mt-5 mb-4 position-relative">
+              <input
+                type="text"
+                class="form-control bg-darkk rounded-pill z-1"
+                placeholder="Find Your Email To Subscribe..."
+              />
+              <button
+                class="btn rounded-pill m-0 z-2 position-absolute end-0 top-50"
+                type="button"
+                id="button-addon2"
+              >
+                Subscribe
+              </button>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="icons d-flex justify-content-center align-items-center">
+              <div class="icon">
+                <i class="fa-brands fa-facebook-f"></i>
+              </div>
+              <div class="icon">
+                <i class="fa-brands fa-twitter"></i>
+              </div>
+              <div class="icon">
+                <i class="fa-brands fa-google-plus-g"></i>
+              </div>
+              <div class="icon">
+                <i class="fa-brands fa-pinterest"></i>
+              </div>
+            </div>
+          </div>
+          <p class="ms-2 my-2 my-md-0">
+            Copyright 2014 Company name. Designed by Themezy. All rights
+            reserved
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- main js -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
